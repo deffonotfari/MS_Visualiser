@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Login</title>
+
+        <!--css file-->
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link  rel="shortcut icon" type="image/png" href="logo.png">
+    </head>
+    
+    <body>
+        <header><!--Different section from the form-->
+            <div class="menu_header">  <!--The menu header needs to present on every page-->
+                <div class = logo> <!--Logo should be present-->
+                    <img src = "logo.png" alt="">
+                </div>
+
+                 <!--The menu header needs to present on every page-->
+                <ul class="menu_headings">
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="registration.html">Register</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="enterdata.html">Enter Data</a></li>
+                    <li><a href="industries.html">Industries</a></li>
+                    <li><a href="search.html">Search</a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="box"> <!--The container fo the box - seperating the 
+                background from form-->
+                <form id="form1" action="" method="POST">
+                    <h1>Login</h1> <!--title of page/form to allow user 
+                        to recognise what page they are on-->
+                    <p>Not <a href="registration.html">registered</a> yet?</p> 
+                    
+                    <!--email field-->
+                    <div class="field"> 
+                        <input id="email" type="text" placeholder="Enter Email">
+                        <div class="error"></div>
+                    </div>
+                    <!--password field-->
+                    <div class="field">  
+                        <input id="pass" type="text" placeholder="Enter Password"> 
+                        <div class="error"></div> 
+                    </div>
+                     <!--Submit button-->
+                    <div class="btn-box"> 
+                        <button type="button" class="navBtn" id="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <!--Javascript file-->
+        <script src="login.js"></script>
+    </body>
+</html>
+

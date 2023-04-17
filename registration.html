@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Registration</title>
+        <link  rel="shortcut icon" type="image/png" href="logo.png">
+        
+        <!--css file-->
+        <link href="style.css" rel="stylesheet" type="text/css">
+
+        <!---Javascript file-->
+        <script src="registration.js"></script> 
+    </head>
+
+    <body>
+        <header> <!--Different section from the form-->
+            <div class="menu_header"> <!--The menu header needs to present on every page-->
+                <div class ="logo">
+                    <img src = "logo.png" alt=""> <!--Logo should be present-->
+                </div>
+
+                <!--creating menu headings-->
+                <ul class="menu_headings">
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="registration.html">Register</a></li> 
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="enterdata.html">Enter Data</a></li>
+                    <li><a href="industries.html">Industries</a></li>
+                    <li><a href="search.html">Search</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <div class="box"> <!--creating container to sepearate things-->
+                <form id="form1" action="user.php" method="POST"> <!--form 1-->
+                    <h3>Email Registration</h3>
+                    
+                    <!--email field-->
+                    <div class="field">
+                        <input name="email" id="email" type="text" placeholder="Enter Email">
+                        <div class="error"></div>
+                    </div>
+
+                    <!--confirming email field-->
+                    <div class="field">
+                        <input name="Email2" id="email2" type="text" placeholder="Enter Email Again">
+                        <div class="error"></div>
+                    </div>
+
+                    <!--password field-->
+                    <div class="field">
+                        <input name="password" id="pass" type="text" placeholder="Enter Password Again">
+                        <div class="error"></div>
+                    </div>
+
+                    <!--confirming password field-->
+                    <div class="field">
+                        <input name="Password2" id="pass2" type="text" placeholder="Enter Password Again">
+                        <div class="error"></div>
+                    </div>
+
+                    <!--next button-->
+                    <div class="btn-box">
+                        <button type="button" class="navBtn" id="next1">Next</button>
+                    </div>
+                </form>
+
+                <form id="form2"> <!--form 2: selecting type of account-->
+                    <h3>Type of account</h3>
+
+                    <div class="typeofaccount">
+                        <!--personal account button-->
+                        <button type="button" class="accbBtn" id="PersonalAcc">Personal Account</button>
+
+                        <!--business account button-->
+                        <button type="button" class="accbBtn" id="BusinessAcc">Business Account</button>
+                    </div>
+
+                    <!--back button - allowing user to go back to previous page-->
+                    <div class="btn-box">  
+                        <button type="button" class="navBtn" id="back1">Back</button>
+                    </div>
+                </form>
+
+                <form id="form3"> <!--form 3: personal account-->
+                    <h3>Personal Account</h3>
+
+                    <div class="field">
+                        <input id="firstname" type="text" placeholder="Enter Name">
+                        <div class="error"></div>
+                    </div>
+
+                    <div class="field">
+                        <input id="surname" type="text" placeholder="Enter Last Name">
+                        <div class="error"></div>
+                    </div>
+
+                    <div class="field">
+                        <input id="loc" type="text" placeholder="Location">
+                        <div class="error"></div>
+                    </div>
+
+                    <div class="btn-box">
+                        <button type="button" class="navBtn" id="back2">Back</button>
+                        <button type="button" class="navBtn" id="submit">Submit</button>
+                    </div>
+                </form>
+
+                <form id="form4"> <!--form 4: business account-->
+                    <h3>Business Account</h3>
+
+                    <!--email field-->
+                    <div class="field">
+                        <input id="businessName" type="text" placeholder="Enter Business Name">
+                        <div class="error"></div>
+                    </div>
+
+                    <!--email field-->
+                    <div class="field">
+                        <input id="businessWeb" type="text" placeholder="Enter the business website">
+                        <div class="error"></div>
+                    </div>
+
+                    <!--email field-->
+                    <div class="field">
+                        <input id="businessLoc" type="text" placeholder="Enter the location of the business">
+                        <div class="error"></div>
+                    </div>
+
+                    <!--email field-->
+                    <div class="field">
+                        <input id="businessMarket" type="text" placeholder="Enter the business market">
+                        <div class="error"></div>
+                    </div>
+
+                    <!--email field-->
+                    <div class="btn-box">
+                        <button type="button" class="navBtn" id="back3">Back</button>
+                        <button type="button" class="navBtn" id="submit2">Submit</button>
+                    </div>
+                </form>
+                
+                <div class="step-row">
+                    <div id="progress"></div>
+                    <div class="step-col"><small>Step 1</small></div>
+                    <div class="step-col"><small>Step 2</small></div>
+                    <div class="step-col"><small>Step 3</small></div>
+                </div>
+
+                
+            </div>
+        </main>
+
+        <!--Javascript file-->
+        <script src="registration.js"></script>
+    </body>
+   
