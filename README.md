@@ -1,8 +1,6 @@
-
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
-
-
 # MS Visualiser
+
+<img width="140" alt="Screenshot 2023-10-12 at 18 47 37" src="https://github.com/deffonotfari/NEAProject/assets/105233354/f0d303f8-c1e2-41fc-9a4e-3409ac860b2c">
 
 This project was required by the examination board as part of my qualification in A-Level Computer Science. This equated to 20% of the total grade.
 
@@ -68,7 +66,7 @@ I've carried out this testing using my local computer and asking the users to us
 
 ## Documentation
 
-[Documentation ](https://linktodocumentation) is available when link is clicked. This is a Microsoft Word Document.  
+[Documentation ](https://linktodocumentation) is available when link is clicked. 
 
 
 ## Authors
