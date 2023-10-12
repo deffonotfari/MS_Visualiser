@@ -66,7 +66,7 @@ I've carried out this testing using my local computer and asking the users to us
 
 ## Documentation
 
-[NEA Project Documentation]([https://linktodocumentation](https://github.com/deffonotfari/NEAProject/files/12885883/01.NEA.Project-compressed.pdf)) is available when link is clicked. 
+[NEA Project Documentation](https://github.com/deffonotfari/NEAProject/files/12885883/01.NEA.Project-compressed.pdf) is available when link is clicked. 
 
 
 ## Authors
